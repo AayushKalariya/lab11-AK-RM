@@ -21,3 +21,11 @@ def log(a, b):
 
 def exp(a,b):
     return a**b
+
+def square_root(a):
+    if a < 0:
+        raise ValueError 
+    math.sqrt(a)
+
+def hypotenuse(a, b): 
+    math.hypot(a, b)
