@@ -14,12 +14,15 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(sub(-4,4), -8)
 
     ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     fill in code
+    def test_multiply(self): # 3 assertions
+        self.assertEqual(mul(2,3),6)
+        self.assertEqual(mul(4,3),12)
+        self.assertEqual(mul(8,3),24)
 
-    # def test_divide(self): # 3 assertions
-    #     fill in code
-    # ##########################
+    def test_divide(self): # 3 assertions
+        self.assertEqual(div(5,10),2)
+        self.assertEqual(div(2,10),5)
+        self.assertEqual(div(10,100),10)
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
@@ -37,14 +40,14 @@ class TestCalculator(unittest.TestCase):
     # ##########################
     
     ######## Partner 1
-    # def test_log_invalid_argument(self): # 1 assertion
-    #     # call log function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     logarithm(0, 5)
-    #     fill in code
+     def test_log_invalid_argument(self): # 1 assertion
+        self.assertRaises(ValueError):
+            self.assertEqual(log(1,10),0)
 
-    # def test_hypotenuse(self): # 3 assertions
-    #     fill in code
+    def test_hypotenuse(self): # 3 assertions
+        self.assertEqual(hypotenuse(3,4),5)
+        self.assertEqual(hypotenuse(6,8),10)
+        self.assertEqual(hypotenuse(5,12),13)
 
     # def test_sqrt(self): # 3 assertions
     #     # Test for invalid argument, example:
