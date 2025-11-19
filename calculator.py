@@ -1,3 +1,7 @@
+#https://github.com/AayushKalariya/lab11-AK-RM
+# Partner 1: Aayush Kalariya
+# Partner 2: Rayan Mubarak
+
 import math 
 
 def add(a,b):

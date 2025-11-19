@@ -1,3 +1,7 @@
+#https://github.com/AayushKalariya/lab11-AK-RM
+# Partner 1: Aayush Kalariya
+# Partner 2: Rayan Mubarak
+
 import unittest
 from calculator import *
 
@@ -55,3 +59,4 @@ class TestCalculator(unittest.TestCase):
 # Do not touch this
 if __name__ == "__main__":
     unittest.main()
+    
