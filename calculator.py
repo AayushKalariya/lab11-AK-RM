@@ -20,6 +20,8 @@ def div(a,b):
 
 def logarithm(a, b): 
     if b == 0:
+        raise ZeroDivisionError
+    if a == 1:
         raise ValueError
     return math.log(b,a)
 
